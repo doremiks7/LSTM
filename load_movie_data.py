@@ -34,7 +34,7 @@ class loadMovieData:
                 if b % 10000 == 0:
                     print ('b  = ', b)
 
-                a = line.split(b'\t')
+                a = line.split(b'::')
 
                 user = int(a[0])
                 item = int(a[1])
