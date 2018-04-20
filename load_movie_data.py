@@ -117,6 +117,6 @@ class loadMovieData:
         new_userItems, new_itemUsers = self.timestamp_to_day(matrix,num_days, min_timestamp)
 
         nUsers = len(new_userItems)
-        nItems = 1683
+        nItems = 3952
 
         return new_userItems, nUsers, nItems, num_days, min_timestamp
