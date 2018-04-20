@@ -112,7 +112,7 @@ class loadMovieData:
         return userItems, itemUsers
 
     def main(self):
-        matrix, userItems, itemUsers, min_timestamp, max_timestamp = self.read_training_data(r"/content/timeSVDpp/ml-100k/ub.base")
+        matrix, userItems, itemUsers, min_timestamp, max_timestamp = self.read_training_data(r"/content/timeSVDpp/ml1mtest/train.dat")
         num_days = self.num_of_days(min_timestamp, max_timestamp)
         new_userItems, new_itemUsers = self.timestamp_to_day(matrix,num_days, min_timestamp)
 

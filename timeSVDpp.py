@@ -250,7 +250,7 @@ class timeSVDpp:
 
     # evaluating the model using RMSE
     def RMSE(self):
-        with open(r"/content/timeSVDpp/ml-100k/ub.test", 'rt', encoding="utf8") as f:
+        with open(r"/content/timeSVDpp/ml1mtest/test.dat", 'rt', encoding="utf8") as f:
             data = csv.reader(f, delimiter = '\t')
 
             mean_squared_error = 0
